@@ -7,3 +7,20 @@
   align-items: center;
   outline: 1px solid white;
 }
+
+/*
+.header {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px solid white;
+}
+*/
+
+/*display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-items: space-between;
+  align-items: center;*/

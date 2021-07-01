@@ -3,33 +3,8 @@
   margin: 0 auto;
   outline: 3px solid white;
   background-color: #2A2C2F;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-/*
-@media screen and (max-width: 1024px) {
-  .lead {
-    max-width: 928px;
-  }
+  display: grid;
+  justify-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .lead {
-    max-width: 768px;
-  }
-}
 
-@media screen and (max-width: 425px) {
-  .lead {
-    max-width: 425px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-  }
-}
-*/
