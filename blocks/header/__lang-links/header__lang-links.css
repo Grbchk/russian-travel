@@ -9,8 +9,8 @@
   }
  }
 
- @media  screen and (max-width: 320px) {
-   .header__lang-links {
-     padding-right: 16px;
-   }
- }
+@media  screen and (max-width: 320px) {
+  .header__lang-links {
+    padding-right: 16px;
+  }
+}
