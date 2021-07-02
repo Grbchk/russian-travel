@@ -9,30 +9,6 @@
   padding-bottom: 32px;
 }
 
-
-
-@media screen and (max-width: 768px) {
-  .lead__title {
-    max-width: 100%;
-    font-size: 96px;
-    line-height: 1.2;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .lead__title {
-    font-size: 75px;
-    line-height: 1.2;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead__title {
-    font-size: 60px;
-    line-height: 1.2;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .lead__title {
     padding-bottom: 16px;

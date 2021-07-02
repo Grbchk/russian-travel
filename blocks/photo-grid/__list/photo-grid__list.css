@@ -2,12 +2,15 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   list-style: none;
-  gap: 16px;
+  gap: 1rem;
   align-items: center;
+  justify-items: space-around;
   outline: 1px solid white;
   max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
 }
-
+/*
 @media  screen and (max-width: 1024px) {
   .header__list {
    max-width: 928px;
@@ -28,3 +31,4 @@
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
    }
  }
+*/
