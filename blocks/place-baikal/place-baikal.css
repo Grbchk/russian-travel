@@ -1,0 +1,32 @@
+.place-baikal {
+  background-color: #2A2C2F;
+  margin: 0 auto;
+
+}
+
+.container {
+  width: 100%;
+  min-height: 200px;
+  background-image: url(/images/footer-photo-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+}
