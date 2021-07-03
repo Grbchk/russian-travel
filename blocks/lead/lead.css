@@ -1,7 +1,6 @@
 .lead {
   max-width: 984px;
   margin: 0 auto;
-  outline: 3px solid blue;
   background-color: #2A2C2F;
   display: grid;
   justify-items: center;
