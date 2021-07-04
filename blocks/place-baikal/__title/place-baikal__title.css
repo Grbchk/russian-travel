@@ -1,0 +1,26 @@
+.place-baikal__title {
+  color: white;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+  max-width: 560px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 630px) {
+  .place-baikal__title {
+    font-size: 40px;
+    line-height: 1;
+    max-width: 290px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place-baikal__title {
+    font-size: 32px;
+    line-height: 1;
+    max-width: 250px;
+  }
+}

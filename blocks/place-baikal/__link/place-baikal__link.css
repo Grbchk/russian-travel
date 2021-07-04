@@ -1,0 +1,21 @@
+.place-baikal__link {
+  text-decoration: none;
+  margin: 0 auto;
+  max-width: 1118px;
+  min-height: 100vh;
+  display: block;
+  background-image: url(/images/footer-photo-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 90px;
+  position: relative;
+}
+
+@media screen and (max-width: 630px){
+  .place-baikal__link {
+    margin-top: 66px;
+  }
+}
+
+
