@@ -1,0 +1,19 @@
+.page__intro {
+  margin: 0 auto;
+  padding-left: 48px;
+  display: grid;
+  grid-template-columns: fit-content(690px);
+}
+
+@media screen and (max-width: 768px) {
+  .page__intro {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

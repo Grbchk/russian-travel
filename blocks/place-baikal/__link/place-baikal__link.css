@@ -1,6 +1,5 @@
 .place-baikal__link {
   text-decoration: none;
-  outline: 3px solid purple;
   margin: 0 auto;
   max-width: 1118px;
   min-height: 100vh;
@@ -8,10 +7,9 @@
   background-image: url(/images/footer-photo-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100%;
+  background-position: 50% 50%;
   margin-top: 90px;
   position: relative;
-
 }
 
 @media screen and (max-width: 630px){
