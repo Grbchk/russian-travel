@@ -41,6 +41,7 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place-baikal/__link/place-baikal__link.css);
 @import url(../blocks/place-baikal/__cover/place-baikal__cover.css);
+@import url(../blocks/place-baikal/__overlay/place-baikal__overlay.css);
 @import url(../blocks/place-baikal/__title/place-baikal__title.css);
 @import url(../blocks/place-baikal/__subtitle/place-baikal__subtitle.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
@@ -48,4 +49,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 /*Modifiers*/
-@import url(../blocks/intro/__fact/intro__fact_weight-normal.css);
+@import url(../blocks/intro/__fact/intro__fact_weight/intro__fact_weight-normal.css);
