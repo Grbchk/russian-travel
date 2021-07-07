@@ -4,25 +4,35 @@
   gap: 40px;
   margin: 0 auto;
   padding: 0;
-  padding-top: 92px;
+  padding-top: 80px;
+}
+
+.page__place:first-child {
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .page__place {
-    max-width: 100%;
     gap: 32px;
     padding-left: 48px;
     padding-right: 48px;
+    padding-top: 80px;
+    width: 100%;
+  }
+  .page__place:first-child {
+    padding-top: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page__place {
-    max-width: 100%;
     gap: 28px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 88px;
+    padding-top: 73px;
+  }
+  .page__place:first-child {
+    padding-top: 0;
   }
 }
 
@@ -31,6 +41,9 @@
     grid-template-columns: 1fr;
     gap: 32px;
     padding: 0;
-    padding-top: 64px;
+    padding-top: 50px;
+  }
+  .page__place:first-child {
+    padding-top: 0;
   }
 }

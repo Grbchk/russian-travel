@@ -3,7 +3,7 @@
     url(../fonts/Inter-Regular.woff2) format('woff2'),
     url(../fonts/Inter-Regular.woff) format('woff');
   font-family: 'Inter';
-  font-weight: regular;
+  font-weight: normal;
 }
 
 @font-face {

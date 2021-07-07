@@ -13,18 +13,20 @@
 
 <body class="page">
   <header class="header page__header">
-    <a class="header__logo" href="#"><img src="images/header-logo.svg" alt="логотип сайта"></a>
-    <div class="header__lang-links">
-      <a class="header__lang-link header__lang-link_ru page__font-smoothed">Ru</a>
-      <a class="header__lang-link header__lang-link_en page__font-smoothed">En</a>
-    </div>
+    <a href="#"><img class="header__logo" src="images/header-logo.svg" alt="логотип сайта"></a>
+    <ul class="header__lang-links">
+      <li><a class="header__lang-link page__font-smoothed" href="#">Ru</a></li>
+      <li><a class="header__lang-link page__font-smoothed" href="#">En</a></li>
+    </ul>
   </header>
   <main class="main">
     <section class="lead page__lead">
       <h1 class="lead__title page__font-smoothed">Путешествия по России</h1>
       <p class="lead__subtitle page__font-smoothed">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="./images/header-photo-polka.jpg" alt="персона лежит на полке плацкарта, поверх отображена схема маршрута Псков — Улан-Удэ">
-      <p class="lead__image-caption page__font-smoothed">ваша полка — верхняя</p>
+      <figure class="figure">
+        <img class="lead__image" src="./images/header-photo-polka.jpg" alt="персона лежит на полке плацкарта, поверх отображена схема маршрута Псков — Улан-Удэ">
+        <figcaption class="lead__image-caption page__font-smoothed">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro page__intro">
       <h2 class="intro__title page__font-smoothed">Чего мы там не видели?</h2>
@@ -40,11 +42,11 @@
         интересные места, достойные вашего отпуска.
       </p>
       <ul class="intro__facts">
-        <li class="intro__fact page__font-smoothed">Часовых поясов <span class="intro__fact_weight-normal">11</span></li>
-        <li class="intro__fact page__font-smoothed">Объектов природного наследия ЮНЕСКО <span class="intro__fact_weight-normal">12</span></li>
-        <li class="intro__fact page__font-smoothed">Объектов культурного наследия ЮНЕСКО <span class="intro__fact_weight-normal">16</span></li>
-        <li class="intro__fact page__font-smoothed">Природных заповедников <span class="intro__fact_weight-normal">105</span></li>
-        <li class="intro__fact page__font-smoothed">Аэропортов <span class="intro__fact_weight-normal">241</span></li>
+        <li class="intro__fact page__font-smoothed">Часовых поясов <span class="intro__span-accent_weight-normal">11</span></li>
+        <li class="intro__fact page__font-smoothed">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent_weight-normal">12</span></li>
+        <li class="intro__fact page__font-smoothed">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent_weight-normal">16</span></li>
+        <li class="intro__fact page__font-smoothed">Природных заповедников <span class="intro__span-accent_weight-normal">105</span></li>
+        <li class="intro__fact page__font-smoothed">Аэропортов <span class="intro__span-accent_weight-normal">241</span></li>
       </ul>
     </section>
     <section class="photo-grid page__photo-grid" aria-label="фотогалерея">
@@ -63,7 +65,7 @@
         <li><img class="photo-grid__item" src="./images/main-photo-green-mountains.jpg" alt="пики гор в тумане"></li>
       </ul>
     </section>
-    <section class="places" aria-label="места">
+    <section class="places page__places" aria-label="места">
       <article class="place page__place">
         <h2 class="place__title page__font-smoothed">Куршская коса</h2>
         <div class="place__website">
@@ -180,17 +182,14 @@
       </article>
     </section>
     <section class="place-baikal">
-        <a class="place-baikal__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
-          <div class="place-baikal__overlay"></div>
-            <div class="place-baikal__cover">
-              <h2 class="place-baikal__title page__font-smoothed">До Байкала «на собаках»</h2>
-              <p class="place-baikal__subtitle page__font-smoothed">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-              </p>
-            </div>
-        </a>
-    </section>
-  </main><!---->
+      <a class="place-baikal__item" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+        <h2 class="place-baikal__title page__font-smoothed">До Байкала «на собаках»</h2>
+        <p class="place-baikal__subtitle page__font-smoothed">
+          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+        </p>
+      </a>
+      </section>
+  </main>
   <footer class="footer page__footer">
     <nav class="footer__menu">
       <ul class="footer__links">

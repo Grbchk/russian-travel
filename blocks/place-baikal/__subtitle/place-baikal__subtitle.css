@@ -7,6 +7,7 @@
   text-align: center;
   margin: 0;
   padding-top: 32px;
+  position: relative;
 }
 
 
@@ -20,6 +21,6 @@
 @media screen and (max-width: 320px) {
   .place-baikal__subtitle {
     max-width: 288px;
-    font-size: 16px;
+    padding-top: 16px;
   }
 }
