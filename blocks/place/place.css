@@ -3,4 +3,8 @@
   max-width: 984px;
 }
 
-
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
